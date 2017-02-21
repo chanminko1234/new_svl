@@ -22,7 +22,7 @@
         <li class="{{ Request::is('/') ? 'active':'' }}"><a href="/">HOME<span class="sr-only">(current)</span></a></li>
         <li class="{{ Request::is('library') ? 'active':'' }}"><a href="library">LIBRARY</a></li>
         <li class="{{ Request::is('news') ? 'active':'' }}"><a href="news">NEWS</a></li>
-        <li class="{{ Request::is('review') ? 'active':'' }}"><a href="review">BOOK REVIEWS</a></li>
+        <li class="{{ Request::is('review')  ? 'active':'' }}"><a href="review">BOOK REVIEWS</a></li>
         <li class="{{ Request::is('resourcecenter') ? 'active':'' }}"><a href="resourcecenter">RESOURCE CENTER</a></li>
         {{-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>

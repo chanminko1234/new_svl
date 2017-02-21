@@ -8,7 +8,7 @@
 			<div class="w3-row w3-margin">
 
 				<div class="w3-third">
-					<img src="{{ asset('image/feature_image (2).jpg') }}" style="width:100%;min-height:200px">
+				<a href="news_details">	<img src="{{ asset('image/feature_image (2).jpg') }}" style="width:100%;min-height:200px"></a>
 				</div>
 				<div class="w3-twothird w3-container">
 					<h2>5 Terre</h2>

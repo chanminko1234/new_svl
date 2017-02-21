@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="w3-card-2 book-review-box">
-					<a href="#" target="_blank">
+					<a href="bookreview_detail" target="_blank">
 						<img src="{{ asset('image/image02.jpg') }}" alt="" class="bookreview-thumbnail">
 						<div class="caption">
 							<p class="w3-container w3-center w3-padding-12">Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>

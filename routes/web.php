@@ -90,4 +90,6 @@ Route::group(['namespace' =>'Frontend'], function () {
 	Route::get('news', 'NewController@index');
 	Route::get('review', 'BookReviewController@index');
 	Route::get('resourcecenter', 'ResourceCenterController@index');
+	Route::get('news_details', 'NewsdetailController@index');
+	Route::get('bookreview_detail','BookReviewDetailController@index');
 });
